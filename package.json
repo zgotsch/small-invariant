@@ -1,8 +1,9 @@
 {
-  "name": "tiny-invariant",
+  "name": "small-invariant",
   "version": "1.3.1",
   "description": "A tiny invariant function",
   "author": "Alex Reardon <alexreardon@gmail.com>",
+  "contributors": ["Zach Gotsch <orbipedis@gmail.com"],
   "license": "MIT",
   "keywords": [
     "invariant",
@@ -12,10 +13,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexreardon/tiny-invariant.git"
+    "url": "https://github.com/zgotsch/small-invariant.git"
   },
   "bugs": {
-    "url": "https://github.com/alexreardon/tiny-invariant/issues"
+    "url": "https://github.com/alexreardon/small-invariant/issues"
   },
   "main": "dist/tiny-invariant.cjs.js",
   "module": "dist/tiny-invariant.esm.js",

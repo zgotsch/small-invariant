@@ -15,11 +15,6 @@ export default function invariant(
   }
   // Condition not passed
 
-  // In production we strip the message but still throw
-  if (isProduction) {
-    throw new Error(prefix);
-  }
-
   // When not in production we allow the message to pass through
   // *This block will be removed in production builds*
 
